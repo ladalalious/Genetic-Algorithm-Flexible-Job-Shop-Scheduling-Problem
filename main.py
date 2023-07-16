@@ -20,7 +20,7 @@ else:
 
 warnings.simplefilter('ignore', RuntimeWarning)
 # 文件数据解析
-jobs_list, machines_list, number_max_operations, RGV_config = read(path)
+jobs_list, machines_list, number_max_operations, RGV_config = read(path) 
 number_total_machines = len(machines_list)
 number_total_jobs = len(jobs_list)
 
